@@ -12,6 +12,14 @@ void main(){
   'Fight Club',
   'The Matrix'
 ];
+		print('Изначальный список:');
+		for(var movie in movies){
+			print(movie);
+		}
 	  var moviesWithThe = movies.where((movie) => movie.startsWith("The")).toList();
-		print(moviesWithThe);
+    print(' ');
+		print('Отсортированный список:');
+		for(var movie in moviesWithThe){
+			print(movie);
+		}
 }
