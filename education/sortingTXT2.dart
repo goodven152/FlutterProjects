@@ -16,10 +16,19 @@ void main(){
 	for(var movie in movies){
 		print(movie);
 	}
-  movies.sort((a, b) => a.length.compareTo(b.length));
+  var sortedMovies = List.from(movies)..sort((a,b) => a.length.compareTo(b.length));
+
+  /// movies.sort((a, b) => a.length.compareTo(b.length));
 	print(' ');
 	print('Отсортированный список по возрастанию:');
-	for(var movie in movies){
+	for(var movie in sortedMovies){
 		print(movie);
 	}
+	/// Для себя задание "Сортировка по убыванию"
+	sortedMovies.sort((a,b) => b.length.compareTo(a.length));
+	print(' ');
+	print('Отстртированный список по убывванию:');
+	for(var movie in sortedMovies){
+		print(movie);
+}
 }
