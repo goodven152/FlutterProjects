@@ -3,4 +3,6 @@
 .dart_tool/
 .vscode/
 .idea/
-education/ForTesting/main.dart
+
+# Игнорирование файлов сборки
+/education/ForTesting/main.dart
