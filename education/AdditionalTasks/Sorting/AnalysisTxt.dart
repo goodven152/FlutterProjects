@@ -1,5 +1,4 @@
 void main(){
-	int i = 0;
 
 	List<String> movies = [
   'The Shawshank Redemption',
@@ -13,10 +12,10 @@ void main(){
   'Fight Club',
   'The Matrix'
 ];
-
-	for(var movie in movies){
-		if(movie.length > 15) {
-			i++;
+int i = 0;
+for(var movie in movies){
+  if(movie.length > 15) {
+    i++;
 		}
 	}
   print('Количество фильмов имеющие более 15 символов: $i');
