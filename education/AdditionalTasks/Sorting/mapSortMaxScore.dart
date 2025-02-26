@@ -13,10 +13,10 @@ List<Map<String, dynamic>> students = [
     {'name': 'Анна', 'score': 80},
 ];
     // для себя
-    print('Ученик из списка. Имя: ${students[4]['name']}\n Оценка: ${students[4]['score']}');
+    // print('Ученик из списка. Имя: ${students[4]['name']}\n Оценка: ${students[4]['score']}');
 
     students.sort((a,b) => a['score'].compareTo(b['score']));
-    var topStudent = students[students.length - 1];
+    var topStudent = students.reduce((max, min) => max > min ? max : min; // need end this 
     print('Ученик с наивысшей оценкой: ${topStudent['name']}\nОценка: ${topStudent['score']}');
 }
 
