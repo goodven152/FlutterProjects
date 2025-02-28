@@ -19,7 +19,5 @@ void main() {
   } else if (age >= 18) {
     int yearsSince = age - 18;
     print("После совершеннолетия прошло $yearsSince, лет");
-  } else {
-    print("Неправильный тип данных.");
   }
 }
