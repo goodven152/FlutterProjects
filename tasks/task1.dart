@@ -11,5 +11,4 @@ void main(){
     int yearsLeft = 18 - age;
     print("До совершеннолетия осталось $yearsLeft лет");
   }
-
 }
