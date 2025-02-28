@@ -1,9 +1,14 @@
 import 'dart:io';
-void main(){
-  var name = "Aleksei";
-  var age = 29;
-  print("Привет, $name! Тебе $age");
 
+void main(){
+  print("Введите ваше имя:");
+  String? nameInput = stdin.readLineSync();
+
+  print("Введите ваш возраст:");
+  String? ageInput = stdin.readLineSync();
+  int age = int.parse(ageInput!);
+
+  print("Привет, $nameInput. Тебе $ageInput");
   if (age > 25) {
     int yearsSince = age - 18;
     print("С момента совершеннолетия прошло $yearsSince лет");
