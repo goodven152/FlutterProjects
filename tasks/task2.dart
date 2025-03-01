@@ -2,9 +2,10 @@ import 'dart:io';
 
 void main(){
 
-	Map<String> Users = {
-	'name' = 'Дмитрий, 'age' = 13;
-}
+	Map<String> Users = [
+	{ 'name': 'Дмитрий 'age': 13 }
+
+];
   print("Введите ваше имя:");
   String? nameInput = stdin.readLineSync();
 
