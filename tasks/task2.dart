@@ -2,12 +2,12 @@ import 'dart:io';
 
 void main(){
 
-	List<Map<String, dynamic>> Users = [
-	{'name': 'Дмитрий, 'age': 13},
-	{'name': 'Геоогий, 'age': 25},
-	{'name': 'Аня, 'age': 18},
-	{'name': 'Алиса', 'age': 36},
-];
+  List<Map<String, dynamic>> users = [
+    {'name': 'Дмитрий', 'age': 15},
+    {'name': 'Аня', 'age': 36},
+    {'name': 'Георгий', 'age': 18},
+    {'name': 'Алиса', 'age': 23},
+  ];
 
   print("Введите ваше имя:");
   String? nameInput = stdin.readLineSync();
