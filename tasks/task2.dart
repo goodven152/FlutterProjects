@@ -1,8 +1,7 @@
 import 'dart:io';
 
 void main(){
-
-	  List<Map<String, dynamic>> users = [
+	List<Map<String, dynamic>> users = [
     {'name': 'Дмитрий', 'age': 15},
     {'name': 'Аня', 'age': 36},
     {'name': 'Георгий', 'age': 18},
